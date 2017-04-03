@@ -1,42 +1,38 @@
 <!DOCTYPE html>
 <!-- saved from url=(0014)about:internet -->
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Javascript</title>
-    <meta name="description" content="This article has Javascript.">
-</head>
-<body>
-	<div>
-		<span class="author-name">
-			Author: <a href="https://" itemprop="author">Charlie B.</a>
-		</span>
-		<br/>
-		<span class="article-date">Published: Mar 31, 2017</span>
-		<meta itemprop="datePublished" content="2017-03-23"/>		
-		<br/>		
-	</div>
-	<h1>Article with Javascript</h1>
-	<hr>
-	<h2>The Incredible Story of an HTML Page with Javascript</h2>	
-	<div class="container">
-			<div class="row">
-				<div class="col s12 article-content">
-					<article class="post-content">
-					<p>We begin our story a long long... long time ago. When there was just HTML and no client-side awesome sauce. Enter Javascript. That is our story...</p>
-					<span>First lets talk about the <button onclick="myFunction()">Alert Box</button></span>
-					
-					</article>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Title: Javascript</title>
+		<meta name="description" content="This is meta name='description' for Javascript">
+	</head>
+	<body>
+		<div>
+			<span class="author-name">Author: <a href="https://en.wikipedia.org/wiki/Charlie_Brown" itemprop="author">Charlie B.</a></span>
+			<br/>
+			<span class="article-date">Published: Mar 31, 2017</span>
+			<meta itemprop="datePublished" content="2017-03-23"/>		
+			<br/>		
+		</div>
+		<div class="container">
+				<div class="row">
+					<div class="col s12 article-content">
+						<article class="post-content"> <!-- everything inside this is what we pull down -->
+							<script>
+							function myFunction() {
+								alert("Alert!!");
+							}
+							</script>						
+							<h1>Header: Article with Javascript</h1>
+							<hr>
+							<p>Summary: This is our document summary.</p>
+							<span>First lets talk about the <button onclick="myFunction()">Alert Box</button></span>
+							
+						</article>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</body>
+	</body>
 </html>
-
-<script>
-function myFunction() {
-    alert("Alert!!");
-}
-</script>
